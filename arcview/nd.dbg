@@ -1,0 +1,18 @@
+
+ERROR           AVArray: Index 0 not in range 0..-1
+
+------------------- TRACEBACK -------------------------
+Module "AVArray" Message   0: file ".\err.c   " line 645
+Module "Draw " Message  -1: file ".\drawinva.c" line 54
+Module "Appl " Message  -1: file "..\appl\appl.c" line 1639
+Module "Err  " Message  -1: file ".\err.c   " line 2009
+-------------------------------------------------------
+
+ERROR           AVArray: Index 0 not in range 0..-1
+
+------------------- TRACEBACK -------------------------
+Module "AVArray" Message   0: file ".\err.c   " line 645
+Module "Draw " Message  -1: file ".\drawinva.c" line 54
+Module "Appl " Message  -1: file "..\appl\appl.c" line 1639
+Module "Err  " Message  -1: file ".\err.c   " line 2009
+-------------------------------------------------------

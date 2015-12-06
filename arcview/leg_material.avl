@@ -1,0 +1,217 @@
+/3.0
+(ODB.1
+	FirstRootClassName:	"Legend"
+	Roots:	2
+	Version:	30
+)
+
+(Legend.2
+	SymType:	0x02
+	LegType:	0x20
+	ClassType:	0x03
+	FieldNames:	3
+	FieldNames:	4
+	FieldNames:	5
+	Symbols:	6
+	Class:	30
+	StdDevs:	1.00000000000000
+	NullSym:	31
+	NullValues:	35
+	StatValues:	36
+	Precision:	-3
+)
+
+(AVStr.3
+	S:	"Book"
+)
+
+(AVStr.4
+	S:	"Equipment"
+)
+
+(AVStr.5
+	S:	"Building"
+)
+
+(SymList.6
+	Child:	7
+)
+
+(ColSym.7
+	Color:	8
+	Outline:	1
+	OlColor:	9
+	OlWidth:	1.00000000000000
+	BgColor:	10
+	Values:	00000000 40e9c340 00000000 40861000 
+	Values:	00000000 00000000 
+	Symbols:	11
+	Symbols:	16
+	Symbols:	21
+	MaxVal:	52762.00000000000000
+	MinSize:	8.00000000000000
+	MaxSize:	26.00000000000000
+	BgSym:	26
+	ColWidth:	6.00000000000000
+)
+
+(TClr.8
+)
+
+(TClr.9
+)
+
+(TClr.10
+	Name:	"Transparent"
+)
+
+(BShSym.11
+	Color:	12
+	Outline:	1
+	OutlineColor:	13
+	OutlineWidth:	0.10000000000000
+	BgColor:	14
+	Style:	0x03
+	Stipple:	15
+)
+
+(TClr.12
+	Red:	0xe06f
+	Green:	0x477f
+	Blue:	0x97aa
+)
+
+(TClr.13
+)
+
+(TClr.14
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.15
+	Columns:	8
+	Rows:	8
+	Bits:	10101010 10101010 
+)
+
+(BShSym.16
+	Color:	17
+	Outline:	1
+	OutlineColor:	18
+	OutlineWidth:	0.10000000000000
+	BgColor:	19
+	Style:	0x03
+	Stipple:	20
+)
+
+(TClr.17
+	Red:	0xc948
+	Green:	0xc33b
+	Blue:	0xff00
+)
+
+(TClr.18
+)
+
+(TClr.19
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.20
+	Columns:	8
+	Rows:	8
+	Bits:	44444482 01102844 
+)
+
+(BShSym.21
+	Color:	22
+	Outline:	1
+	OutlineColor:	23
+	OutlineWidth:	0.10000000000000
+	BgColor:	24
+	Style:	0x03
+	Stipple:	25
+)
+
+(TClr.22
+	Red:	0xff00
+	Green:	0xc33b
+	Blue:	0xc33b
+)
+
+(TClr.23
+)
+
+(TClr.24
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.25
+	Columns:	8
+	Rows:	8
+	Bits:	40ff0404 04ff4040 
+)
+
+(BShSym.26
+	Color:	27
+	Outline:	1
+	OutlineColor:	28
+	OutlineWidth:	0.10000000000000
+	BgColor:	29
+)
+
+(TClr.27
+	Red:	0xa610
+	Green:	0xff00
+	Blue:	0xa559
+)
+
+(TClr.28
+)
+
+(TClr.29
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.30
+	Label:	"nifty chart map"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.31
+	Color:	32
+	Outline:	1
+	OutlineColor:	33
+	OutlineWidth:	0.10000000000000
+	BgColor:	34
+)
+
+(TClr.32
+	Name:	"Transparent"
+)
+
+(TClr.33
+	Name:	"Transparent"
+)
+
+(TClr.34
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.35
+)
+
+(NameDict.36
+)
+

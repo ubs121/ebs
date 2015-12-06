@@ -1,0 +1,195 @@
+/3.0
+(ODB.1
+	FirstRootClassName:	"Legend"
+	Roots:	2
+	Version:	30
+)
+
+(Legend.2
+	SymType:	0x02
+	LegType:	0x20
+	ClassType:	0x03
+	NormType:	0x02
+	FieldNames:	3
+	FieldNames:	4
+	FieldNames:	5
+	NormFieldName:	"Pupil"
+	Symbols:	6
+	Class:	27
+	StdDevs:	1.00000000000000
+	NullSym:	28
+	NullValues:	32
+	StatValues:	33
+	Precision:	-3
+)
+
+(AVStr.3
+	S:	"Pupil"
+)
+
+(AVStr.4
+	S:	"InDormitory"
+)
+
+(AVStr.5
+	S:	"PoorStudent"
+)
+
+(SymList.6
+	Child:	7
+)
+
+(PieSym.7
+	Color:	8
+	Outline:	1
+	OlColor:	9
+	OlWidth:	1.00000000000000
+	BgColor:	10
+	Values:	00000000 3ff00000 0babaa82 3fc9931c 
+	Values:	9eda417a 3fa9753b 
+	Symbols:	11
+	Symbols:	15
+	Symbols:	19
+	MinSize:	2.00000000000000
+	MaxSize:	24.00000000000000
+	BgSym:	23
+)
+
+(TClr.8
+)
+
+(TClr.9
+)
+
+(TClr.10
+	Name:	"Transparent"
+)
+
+(BShSym.11
+	Color:	12
+	Outline:	1
+	OutlineColor:	13
+	OutlineWidth:	0.10000000000000
+	BgColor:	14
+)
+
+(TClr.12
+	Red:	0xff00
+	Green:	0xc33b
+	Blue:	0xc33b
+)
+
+(TClr.13
+)
+
+(TClr.14
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.15
+	Color:	16
+	Outline:	1
+	OutlineColor:	17
+	OutlineWidth:	0.10000000000000
+	BgColor:	18
+)
+
+(TClr.16
+	Red:	0x8700
+	Green:	0x9ec9
+	Blue:	0x4340
+)
+
+(TClr.17
+)
+
+(TClr.18
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.19
+	Color:	20
+	Outline:	1
+	OutlineColor:	21
+	OutlineWidth:	0.10000000000000
+	BgColor:	22
+)
+
+(TClr.20
+	Red:	0x77d5
+	Green:	0x81
+	Blue:	0x8200
+)
+
+(TClr.21
+)
+
+(TClr.22
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.23
+	Color:	24
+	Outline:	1
+	OutlineColor:	25
+	OutlineWidth:	0.10000000000000
+	BgColor:	26
+)
+
+(TClr.24
+	Red:	0xfe
+	Green:	0xff00
+	Blue:	0xab9a
+)
+
+(TClr.25
+)
+
+(TClr.26
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.27
+	Label:	"nifty chart map"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.28
+	Color:	29
+	Outline:	1
+	OutlineColor:	30
+	OutlineWidth:	0.10000000000000
+	BgColor:	31
+)
+
+(TClr.29
+	Red:	0xd2d2
+	Green:	0xd2d2
+	Blue:	0xd2d2
+)
+
+(TClr.30
+	Name:	"Transparent"
+)
+
+(TClr.31
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.32
+)
+
+(NameDict.33
+)
+

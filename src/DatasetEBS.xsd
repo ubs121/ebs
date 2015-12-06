@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="DatasetEBS" targetNamespace="http://tempuri.org/DatasetEBS.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/DatasetEBS.xsd" xmlns:mstns="http://tempuri.org/DatasetEBS.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="DatasetEBS" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Region">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_Rid" type="xs:int" />
+							<xs:element name="c_Name" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Ebs06">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_ArcId" type="xs:long" />
+							<xs:element name="c_DescId" type="xs:string" />
+							<xs:element name="c_Grad" type="xs:int" minOccurs="0" />
+							<xs:element name="c_GradFe" type="xs:int" minOccurs="0" />
+							<xs:element name="c_Ex" type="xs:int" minOccurs="0" />
+							<xs:element name="c_ExFe" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Ebs08">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_ArcId" type="xs:long" />
+							<xs:element name="c_DescId" type="xs:string" />
+							<xs:element name="c_Count" type="xs:int" minOccurs="0" />
+							<xs:element name="c_CountFe" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Ebs01">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_ArcId" type="xs:long" />
+							<xs:element name="c_DescId" type="xs:string" />
+							<xs:element name="c_Class" type="xs:int" />
+							<xs:element name="c_Count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Ebs02">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_ArcId" type="xs:long" />
+							<xs:element name="c_DescId" type="xs:string" />
+							<xs:element name="c_Class" type="xs:int" />
+							<xs:element name="c_Count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Ebs10">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_ArcId" type="xs:long" />
+							<xs:element name="c_DescId" type="xs:string" />
+							<xs:element name="c_Class" type="xs:int" />
+							<xs:element name="c_Count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Ebs07a">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_ArcId" type="xs:long" />
+							<xs:element name="c_DescId" type="xs:string" />
+							<xs:element name="c_Prof" type="xs:string" />
+							<xs:element name="c_Count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Ebs09">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_ArcId" type="xs:long" />
+							<xs:element name="c_DescId" type="xs:string" />
+							<xs:element name="c_Staff" type="xs:string" />
+							<xs:element name="c_Count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Ebs07">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_ArcId" type="xs:long" />
+							<xs:element name="c_DescId" type="xs:string" />
+							<xs:element name="c_Prof" type="xs:string" />
+							<xs:element name="c_Count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Ebs13">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_ArcId" type="xs:long" />
+							<xs:element name="c_DescId" type="xs:string" />
+							<xs:element name="c_Class" type="xs:int" />
+							<xs:element name="c_Lesson" type="xs:string" />
+							<xs:element name="c_Count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Ebs03">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_ArcId" type="xs:long" />
+							<xs:element name="c_DescId" type="xs:string" />
+							<xs:element name="c_Class" type="xs:int" />
+							<xs:element name="c_Lesson" type="xs:string" />
+							<xs:element name="c_Count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Ebs05">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_ArcId" type="xs:long" />
+							<xs:element name="c_DescId" type="xs:string" />
+							<xs:element name="c_Class" type="xs:int" />
+							<xs:element name="c_Lesson" type="xs:string" />
+							<xs:element name="c_Count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Ebs14">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_ArcId" type="xs:long" />
+							<xs:element name="c_DescId" type="xs:string" />
+							<xs:element name="c_For" type="xs:string" />
+							<xs:element name="c_Total" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Ebs15">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_ArcId" type="xs:long" />
+							<xs:element name="c_DescId" type="xs:string" />
+							<xs:element name="c_YOB" type="xs:int" />
+							<xs:element name="c_Count" type="xs:int" minOccurs="0" />
+							<xs:element name="c_CountFe" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Description">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_Id" type="xs:string" />
+							<xs:element name="c_Desc" type="xs:string" minOccurs="0" />
+							<xs:element name="c_SheetCol" type="xs:string" minOccurs="0" />
+							<xs:element name="c_SheetRow" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Ebs11">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_ArcId" type="xs:long" />
+							<xs:element name="c_DescId" type="xs:string" />
+							<xs:element name="c_Col" type="xs:string" />
+							<xs:element name="c_Count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="School">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_Sid" type="xs:int" />
+							<xs:element name="c_Rid" type="xs:int" />
+							<xs:element name="c_Name" type="xs:string" />
+							<xs:element name="c_Type" type="xs:string" />
+							<xs:element name="c_Special" type="xs:string" />
+							<xs:element name="c_IsBranch" type="xs:boolean" minOccurs="0" />
+							<xs:element name="c_Note" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Teacher">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_ArcId" type="xs:long" />
+							<xs:element name="c_Name" type="xs:string" />
+							<xs:element name="c_Age" type="xs:unsignedByte" minOccurs="0" />
+							<xs:element name="c_Sex" type="xs:string" minOccurs="0" />
+							<xs:element name="c_RegNo" type="xs:string" minOccurs="0" />
+							<xs:element name="c_FamilyMembers" type="xs:int" minOccurs="0" />
+							<xs:element name="c_Prof" type="xs:string" minOccurs="0" />
+							<xs:element name="c_Position" type="xs:string" minOccurs="0" />
+							<xs:element name="c_Degree" type="xs:string" minOccurs="0" />
+							<xs:element name="c_ProfDegree" type="xs:string" minOccurs="0" />
+							<xs:element name="c_Education" type="xs:string" minOccurs="0" />
+							<xs:element name="c_WorkedYear" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Building">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_ArcId" type="xs:long" />
+							<xs:element name="c_Building" type="xs:string" />
+							<xs:element name="c_Desc" type="xs:string" minOccurs="0" />
+							<xs:element name="c_BuildYear" type="xs:int" minOccurs="0" />
+							<xs:element name="c_Cardinality" type="xs:int" minOccurs="0" />
+							<xs:element name="c_RoomCount" type="xs:int" minOccurs="0" />
+							<xs:element name="c_Quality" type="xs:string" minOccurs="0" />
+							<xs:element name="c_Cost" type="xs:decimal" minOccurs="0" />
+							<xs:element name="c_Available" type="xs:boolean" minOccurs="0" />
+							<xs:element name="c_UsingByDesc" type="xs:boolean" minOccurs="0" />
+							<xs:element name="c_HeatingType" type="xs:string" minOccurs="0" />
+							<xs:element name="c_HeatingCapacity" type="xs:float" minOccurs="0" />
+							<xs:element name="c_NECapable" type="xs:boolean" minOccurs="0" />
+							<xs:element name="c_UsableInWinter" type="xs:boolean" minOccurs="0" />
+							<xs:element name="c_RepairNeed" type="xs:boolean" minOccurs="0" />
+							<xs:element name="c_RepairCost" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Equipment">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_ArcId" type="xs:long" />
+							<xs:element name="c_Equipment" type="xs:string" />
+							<xs:element name="c_Type" type="xs:string" minOccurs="0" />
+							<xs:element name="c_Count" type="xs:int" minOccurs="0" />
+							<xs:element name="c_AvailableCount" type="xs:int" minOccurs="0" />
+							<xs:element name="c_Cost" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Husbandry">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_ArcId" type="xs:long" />
+							<xs:element name="c_Animals" type="xs:int" minOccurs="0" />
+							<xs:element name="c_Harvest" type="xs:int" minOccurs="0" />
+							<xs:element name="c_Field" type="xs:float" minOccurs="0" />
+							<xs:element name="c_Sheep" type="xs:int" minOccurs="0" />
+							<xs:element name="c_Goat" type="xs:int" minOccurs="0" />
+							<xs:element name="c_Cow" type="xs:int" minOccurs="0" />
+							<xs:element name="c_Horse" type="xs:int" minOccurs="0" />
+							<xs:element name="c_Camel" type="xs:int" minOccurs="0" />
+							<xs:element name="c_Pig" type="xs:int" minOccurs="0" />
+							<xs:element name="c_Bird" type="xs:int" minOccurs="0" />
+							<xs:element name="c_Seed" type="xs:int" minOccurs="0" />
+							<xs:element name="c_Vegetable" type="xs:int" minOccurs="0" />
+							<xs:element name="c_Fruit" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="EbsInd">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="c_ArcId" type="xs:long" />
+							<xs:element name="c_Desc" type="xs:string" />
+							<xs:element name="c_Value" type="xs:double" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="DatasetEBSKey2" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Region" />
+			<xs:field xpath="mstns:c_Rid" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey8" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Ebs06" />
+			<xs:field xpath="mstns:c_ArcId" />
+			<xs:field xpath="mstns:c_DescId" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey11" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Ebs08" />
+			<xs:field xpath="mstns:c_ArcId" />
+			<xs:field xpath="mstns:c_DescId" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey4" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Ebs01" />
+			<xs:field xpath="mstns:c_ArcId" />
+			<xs:field xpath="mstns:c_DescId" />
+			<xs:field xpath="mstns:c_Class" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey5" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Ebs02" />
+			<xs:field xpath="mstns:c_ArcId" />
+			<xs:field xpath="mstns:c_DescId" />
+			<xs:field xpath="mstns:c_Class" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey13" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Ebs10" />
+			<xs:field xpath="mstns:c_ArcId" />
+			<xs:field xpath="mstns:c_DescId" />
+			<xs:field xpath="mstns:c_Class" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey10" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Ebs07a" />
+			<xs:field xpath="mstns:c_ArcId" />
+			<xs:field xpath="mstns:c_DescId" />
+			<xs:field xpath="mstns:c_Prof" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey12" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Ebs09" />
+			<xs:field xpath="mstns:c_ArcId" />
+			<xs:field xpath="mstns:c_DescId" />
+			<xs:field xpath="mstns:c_Staff" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey9" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Ebs07" />
+			<xs:field xpath="mstns:c_ArcId" />
+			<xs:field xpath="mstns:c_DescId" />
+			<xs:field xpath="mstns:c_Prof" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey15" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Ebs13" />
+			<xs:field xpath="mstns:c_ArcId" />
+			<xs:field xpath="mstns:c_DescId" />
+			<xs:field xpath="mstns:c_Class" />
+			<xs:field xpath="mstns:c_Lesson" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey6" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Ebs03" />
+			<xs:field xpath="mstns:c_ArcId" />
+			<xs:field xpath="mstns:c_DescId" />
+			<xs:field xpath="mstns:c_Class" />
+			<xs:field xpath="mstns:c_Lesson" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey7" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Ebs05" />
+			<xs:field xpath="mstns:c_ArcId" />
+			<xs:field xpath="mstns:c_DescId" />
+			<xs:field xpath="mstns:c_Class" />
+			<xs:field xpath="mstns:c_Lesson" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey3" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Ebs14" />
+			<xs:field xpath="mstns:c_ArcId" />
+			<xs:field xpath="mstns:c_DescId" />
+			<xs:field xpath="mstns:c_For" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey16" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Ebs15" />
+			<xs:field xpath="mstns:c_ArcId" />
+			<xs:field xpath="mstns:c_DescId" />
+			<xs:field xpath="mstns:c_YOB" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Description" />
+			<xs:field xpath="mstns:c_Id" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey14" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Ebs11" />
+			<xs:field xpath="mstns:c_ArcId" />
+			<xs:field xpath="mstns:c_DescId" />
+			<xs:field xpath="mstns:c_Col" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey17" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:School" />
+			<xs:field xpath="mstns:c_Sid" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey19" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Teacher" />
+			<xs:field xpath="mstns:c_ArcId" />
+			<xs:field xpath="mstns:c_Name" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey18" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Building" />
+			<xs:field xpath="mstns:c_ArcId" />
+			<xs:field xpath="mstns:c_Building" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey20" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Equipment" />
+			<xs:field xpath="mstns:c_ArcId" />
+			<xs:field xpath="mstns:c_Equipment" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey21" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Husbandry" />
+			<xs:field xpath="mstns:c_ArcId" />
+		</xs:unique>
+		<xs:unique name="DatasetEBSKey22" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:EbsInd" />
+			<xs:field xpath="mstns:c_ArcId" />
+			<xs:field xpath="mstns:c_Desc" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

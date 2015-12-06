@@ -1,0 +1,445 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{3B99AEF3-4AED-41B5-B921-523E58319BA4}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "..\resource\EBS.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "EBS"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "EBS"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = "EBS.MainForm"
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "..\bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "..\bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "MSComctlLib"
+                    Guid = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}"
+                    VersionMajor = "2"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "stdole"
+                    Guid = "{00020430-0000-0000-C000-000000000046}"
+                    VersionMajor = "2"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "primary"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "ADODB"
+                    Guid = "{00000205-0000-0010-8000-00AA006D2EA4}"
+                    VersionMajor = "2"
+                    VersionMinor = "5"
+                    Lcid = "0"
+                    WrapperTool = "primary"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "MSDATASRC"
+                    Guid = "{7C0FFAB0-CD84-11D0-949A-00A0C91110ED}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "primary"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "OWC11"
+                    Guid = "{0002E558-0000-0000-C000-000000000046}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "AxOWC11"
+                    Guid = "{0002E558-0000-0000-C000-000000000046}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "aximp"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AboutDlg.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AboutDlg.resx"
+                    DependentUpon = "AboutDlg.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AppSetting.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DatasetEBS.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DatasetEBS.cs"
+                />
+                <File
+                    RelPath = "DatasetEBS.cs"
+                    DependentUpon = "DatasetEBS.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "DatasetEBS.xsx"
+                    DependentUpon = "DatasetEBS.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "DB.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBS01.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBS01.resx"
+                    DependentUpon = "EBS01.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EBS02.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBS02.resx"
+                    DependentUpon = "EBS02.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EBS03.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBS03.resx"
+                    DependentUpon = "EBS03.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EBS05.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBS05.resx"
+                    DependentUpon = "EBS05.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EBS06.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBS06.resx"
+                    DependentUpon = "EBS06.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EBS07.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBS07.resx"
+                    DependentUpon = "EBS07.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EBS07A.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBS07A.resx"
+                    DependentUpon = "EBS07A.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EBS08.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBS08.resx"
+                    DependentUpon = "EBS08.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EBS09.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBS09.resx"
+                    DependentUpon = "EBS09.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EBS10.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBS10.resx"
+                    DependentUpon = "EBS10.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EBS11.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBS11.resx"
+                    DependentUpon = "EBS11.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EBS12.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBS12.resx"
+                    DependentUpon = "EBS12.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EBS13.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBS13.resx"
+                    DependentUpon = "EBS13.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EBS14.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBS14.resx"
+                    DependentUpon = "EBS14.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EBS15.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBS15.resx"
+                    DependentUpon = "EBS15.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EBSForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBSForm.resx"
+                    DependentUpon = "EBSForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EBSIND.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBSIND.resx"
+                    DependentUpon = "EBSIND.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EBSMB.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBSMB.resx"
+                    DependentUpon = "EBSMB.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EBSTC.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EBSTC.resx"
+                    DependentUpon = "EBSTC.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "LoginDlg.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "LoginDlg.resX"
+                    DependentUpon = "LoginDlg.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MainForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MainForm.resx"
+                    DependentUpon = "MainForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OptionDlg.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OptionDlg.resx"
+                    DependentUpon = "OptionDlg.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ReportChart.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ReportChart.resx"
+                    DependentUpon = "ReportChart.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ReportMap.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ReportMap.resx"
+                    DependentUpon = "ReportMap.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Types.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Win32.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

@@ -1,0 +1,160 @@
+/3.0
+(ODB.1
+	FirstRootClassName:	"Legend"
+	Roots:	2
+	Version:	30
+)
+
+(Legend.2
+	SymType:	0x02
+	LegType:	0x20
+	ClassType:	0x03
+	FieldNames:	3
+	FieldNames:	4
+	Symbols:	5
+	Class:	22
+	StdDevs:	1.00000000000000
+	NullSym:	23
+	NullValues:	27
+	StatValues:	28
+	Precision:	-3
+)
+
+(AVStr.3
+	S:	"Budget"
+)
+
+(AVStr.4
+	S:	"Exp"
+)
+
+(SymList.5
+	Child:	6
+)
+
+(PieSym.6
+	Color:	7
+	Outline:	1
+	OlColor:	8
+	OlWidth:	1.00000000000000
+	BgColor:	9
+	Values:	00000000 00000000 00000000 00000000 
+
+	Symbols:	10
+	Symbols:	14
+	MinSize:	2.00000000000000
+	MaxSize:	36.00000000000000
+	BgSym:	18
+)
+
+(TClr.7
+)
+
+(TClr.8
+)
+
+(TClr.9
+	Name:	"Transparent"
+)
+
+(BShSym.10
+	Color:	11
+	Outline:	1
+	OutlineColor:	12
+	OutlineWidth:	0.10000000000000
+	BgColor:	13
+)
+
+(TClr.11
+	Green:	0xffff
+)
+
+(TClr.12
+)
+
+(TClr.13
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.14
+	Color:	15
+	Outline:	1
+	OutlineColor:	16
+	OutlineWidth:	0.10000000000000
+	BgColor:	17
+)
+
+(TClr.15
+	Red:	0x7878
+	Green:	0x7878
+	Blue:	0x7878
+)
+
+(TClr.16
+)
+
+(TClr.17
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.18
+	Color:	19
+	Outline:	1
+	OutlineColor:	20
+	OutlineWidth:	0.10000000000000
+	BgColor:	21
+)
+
+(TClr.19
+	Red:	0xff00
+	Green:	0xc33b
+	Blue:	0xc33b
+)
+
+(TClr.20
+)
+
+(TClr.21
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.22
+	Label:	"nifty chart map"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.23
+	Color:	24
+	Outline:	1
+	OutlineColor:	25
+	OutlineWidth:	0.10000000000000
+	BgColor:	26
+)
+
+(TClr.24
+	Name:	"Transparent"
+)
+
+(TClr.25
+	Name:	"Transparent"
+)
+
+(TClr.26
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.27
+)
+
+(NameDict.28
+)
+
